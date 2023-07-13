@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFEADD;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    padding: 20px 60px;
+    list-style: none;
+}
+
+ul li :hover {
+    background-color: darksalmon
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: brown;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input {
+    width: 350px;
+    padding: 5px;
+    border: 1px solid brown;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.btn {
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    margin-left: 10px;
+
+}
+
+#option {
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    margin-left: 10px;
+
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    font-size: 14px;
+    font-weight: 400;
+    color: brown;
+    box-shadow: 0px 2px 10px;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: #ffff;
+    padding: 10px;
+
+}
+
+.momeri {
+    width: 20px;
+    background-color: blue;
+}
